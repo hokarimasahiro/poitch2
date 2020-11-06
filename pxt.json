@@ -1,0 +1,22 @@
+{
+    "name": "ぽいっち",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "pxt-watchfont": "github:hokarimasahiro/pxt-watchfont#572ae2ddd7f597dc65081544432e18b706bec4c4",
+        "pxt-poitch2": "github:hokarimasahiro/pxt-poitch2#163b9f5f2005e143e4eb381553ec3cfd83e56c76"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}

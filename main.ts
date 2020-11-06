@@ -1,6 +1,6 @@
 music.rest(music.beat(BeatFraction.Whole))
 basic.forever(function () {
-    if (poitch2.testSwitch(DigitalPin.P5)) {
+    if (input.buttonIsPressed(Button.A)) {
         watchfont.showNumber2(5)
         music.ringTone(262)
     } else if (poitch2.testSwitch(DigitalPin.P8)) {
@@ -15,7 +15,7 @@ basic.forever(function () {
     } else if (poitch2.testSwitch(DigitalPin.P13)) {
         watchfont.showNumber2(13)
         music.ringTone(392)
-    } else if (poitch2.testSwitch(DigitalPin.P11)) {
+    } else if (input.buttonIsPressed(Button.B)) {
         watchfont.showNumber2(11)
         music.ringTone(440)
     } else {

@@ -5,7 +5,7 @@
         "core": "*",
         "radio": "*",
         "pxt-watchfont": "github:hokarimasahiro/pxt-watchfont#572ae2ddd7f597dc65081544432e18b706bec4c4",
-        "pxt-poitch2": "github:hokarimasahiro/pxt-poitch2#599ecc21b83282a98bc2f7bac756d69f5fd5939a"
+        "pxt-poitch2": "github:hokarimasahiro/pxt-poitch2#4fe8a3ae0223c18e52f27ce68148fe482168a90d"
     },
     "files": [
         "main.blocks",
